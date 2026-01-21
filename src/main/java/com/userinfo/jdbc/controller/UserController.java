@@ -44,7 +44,7 @@ public class UserController {
                    if(deleted>0){
                        System.out.println("Deleted from table");
                        return;
-                   }System.out.println("Error on delete");
+                   }System.out.println("Error on delete from table"); //added commentgit
                    break;
                 case "list":
                     List<User> users=userService.listUser();
